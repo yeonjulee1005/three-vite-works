@@ -19,6 +19,7 @@ export default {
             input: {
                 main: resolve(__dirname, './src/index.html'),
                 '3d-world': resolve(__dirname, './src/3d-world.html'),
+                'spiral-galaxy': resolve(__dirname, './src/spiral-galaxy.html'),
             }
         }
     },
