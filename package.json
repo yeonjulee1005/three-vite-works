@@ -1,0 +1,29 @@
+{
+  "name": "three-vite-works",
+  "private": true,
+  "version": "1.2601.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "version:major": "node scripts/version-runner.cjs major",
+    "version:minor": "node scripts/version-runner.cjs minor",
+    "version:patch": "node scripts/version-runner.cjs patch",
+    "version:clear": "node scripts/version-runner.cjs clear"
+  },
+  "devDependencies": {
+    "@types/three": "^0.174.0",
+    "@typescript-eslint/eslint-plugin": "^8.50.1",
+    "@typescript-eslint/parser": "^8.50.1",
+    "eslint": "^9.39.2",
+    "typescript": "^5.9.3",
+    "vite": "^6.2.2",
+    "vite-plugin-restart": "^0.4.2"
+  },
+  "dependencies": {
+    "lil-gui": "^0.20.0",
+    "three": "^0.174.0"
+  }
+}

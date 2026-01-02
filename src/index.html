@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" style="background: #000;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dewdew's Three.js Works</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body { background: #000; }
+    </style>
+</head>
+<body style="background: #000;">
+    <div class="loading-container">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Loading...</div>
+    </div>
+    <main class="works-container">
+        <h1 class="works-title">Dewdew's Three.js Works</h1>
+        <div class="works-grid">
+            <a href="./spiral-galaxy.html" class="work-card">
+                <div class="work-preview">
+                    <canvas class="preview-canvas" data-work="spiral-galaxy"></canvas>
+                </div>
+                <div class="work-info">
+                    <h2 class="work-title">Spiral Galaxy</h2>
+                    <p class="work-description">나선 은하의 아름다운 시뮬레이션</p>
+                </div>
+            </a>
+            <a href="./3d-world.html" class="work-card">
+                <div class="work-preview">
+                    <canvas class="preview-canvas" data-work="3d-world"></canvas>
+                </div>
+                <div class="work-info">
+                    <h2 class="work-title">3D World</h2>
+                    <p class="work-description">인터랙티브한 3D 월드 탐험</p>
+                </div>
+            </a>
+        </div>
+    </main>
+    <script type="module" src="./index.ts"></script>
+</body>
+</html>
