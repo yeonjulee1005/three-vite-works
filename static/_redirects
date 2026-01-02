@@ -1,0 +1,9 @@
+# Cloudflare Pages redirects
+# .html 확장자 없이 접근 가능하도록 설정
+
+# spiral-galaxy (슬래시 없이 접근 시 슬래시 추가)
+/spiral-galaxy /spiral-galaxy/ 301
+
+# 3d-world (슬래시 없이 접근 시 슬래시 추가)
+/3d-world /3d-world/ 301
+
