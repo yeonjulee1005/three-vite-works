@@ -154,16 +154,16 @@ const parameters = {
   radius: 20,
   branches: 3,
   spin: 0.1,
-  randomness: 0.6,
-  randomnessPower: 4.5,
+  randomness: 10,
+  randomnessPower: 1.1,
   twist: 1.2,
   branchTwist: 0.1,
-  armThickness: 20,
+  armThickness: 70,
     
   // Bulge
   bulgeSize: 0.05,
   bulgeDensity: 6.2,
-  bulgeSpread: 0.15,
+  bulgeSpread: 0.45,
   bulgeRandomness: 2.2,
     
   // Black Hole
@@ -488,7 +488,7 @@ const setupGUI = () => {
   spiralGalaxyFolder.add(parameters, 'radius').min(0.01).max(40).step(0.1).name('Galaxy Radius').onFinishChange(generateGalaxy)
   spiralGalaxyFolder.add(parameters, 'branches').min(2).max(20).step(1).name('Galaxy Branches').onFinishChange(generateGalaxy)
   spiralGalaxyFolder.add(parameters, 'spin').min(-1).max(1).step(0.001).name('Spin').onFinishChange(generateGalaxy)
-  spiralGalaxyFolder.add(parameters, 'randomness').min(0).max(10).step(0.001).name('Randomness').onFinishChange(generateGalaxy)
+  spiralGalaxyFolder.add(parameters, 'randomness').min(0).max(30).step(0.001).name('Randomness').onFinishChange(generateGalaxy)
   spiralGalaxyFolder.add(parameters, 'randomnessPower').min(0).max(100).step(0.001).name('Randomness Power').onFinishChange(generateGalaxy)
   spiralGalaxyFolder.add(parameters, 'twist').min(0).max(2).step(0.01).name('Twist').onFinishChange(generateGalaxy)
   spiralGalaxyFolder.add(parameters, 'branchTwist').min(-1).max(1).step(0.01).name('Branch Twist').onFinishChange(generateGalaxy)
