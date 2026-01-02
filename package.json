@@ -1,7 +1,7 @@
 {
   "name": "three-vite-works",
   "private": true,
-  "version": "1.2601.1",
+  "version": "1.2601.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
